@@ -135,10 +135,19 @@ CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
     "https://londonpoliticalsummitandawards.org",
     "https://www.londonpoliticalsummitandawards.org",
+    "https://lpsafrontend-ot4l.vercel.app",
+    "https://lpsafrontend-ot4l-git-main-alshekizxs-projects.vercel.app",
+    "https://lpsafrontend-ot4l-9gidbdug4-alshekizxs-projects.vercel.app",
+    "http://209.74.88.216",
 ]
+
 CSRF_TRUSTED_ORIGINS = [
     "https://londonpoliticalsummitandawards.org",
     "https://www.londonpoliticalsummitandawards.org",
+    "https://lpsafrontend-ot4l.vercel.app",
+    "https://lpsafrontend-ot4l-git-main-alshekizxs-projects.vercel.app",
+    "https://lpsafrontend-ot4l-9gidbdug4-alshekizxs-projects.vercel.app",
+    "http://209.74.88.216",
 ]
 
 
