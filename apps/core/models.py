@@ -32,6 +32,9 @@ class Event(models.Model):
     status = models.CharField(max_length=20, choices=STATUS)
     image = models.URLField()
     full_description = models.TextField()
+    brochure = models.FileField(upload_to="event_brochures/", blank=True, null=True)
+    registration_url = models.URLField(blank=True)
+    embed_code = models.TextField(blank=True)
 
     speakers = models.ManyToManyField(Speaker, blank=True)
 
