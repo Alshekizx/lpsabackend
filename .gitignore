@@ -1,0 +1,59 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Static files
+staticfiles/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Node.js (if frontend is inside this repo)
+node_modules/
+.next/
+out/
+
+# TypeScript
+*.tsbuildinfo
