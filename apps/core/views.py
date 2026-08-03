@@ -56,11 +56,13 @@ class SpeakerViewSet(viewsets.ModelViewSet):
 class PartnerViewSet(viewsets.ModelViewSet):
     queryset = Partner.objects.all()
     serializer_class = PartnerSerializer
+    pagination_class = None
 
 
 class TeamMemberViewSet(viewsets.ModelViewSet):
     queryset = TeamMember.objects.all()
     serializer_class = TeamMemberSerializer
+    pagination_class = None
 
 
 class StatViewSet(viewsets.ModelViewSet):
